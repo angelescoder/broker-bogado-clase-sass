@@ -1,0 +1,41 @@
+$colores1: rgb(120, 190, 144);
+$colores2: gray;
+$colores3:white;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    background-image: linear-gradient($colores1, $colores3);
+    text-transform: uppercase;
+    font-size: 30px;
+    color: $colores2;
+    font-family: 'Old Standard TT', serif; 
+}
+
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: black;
+    height: 600px;
+    width: 100%;
+}
+.sec1{
+    text-transform: uppercase;
+    color: gray;
+    text-align: center;
+}
+.sec2{
+    width: 100%;
+    text-transform: lowercase;
+    color: gray;
+    text-align: center;
+}
+
+@import "_header";
+@import "_footer";
+
+

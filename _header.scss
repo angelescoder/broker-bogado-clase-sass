@@ -1,0 +1,22 @@
+header{
+    height: 60px;
+    width: 100%;
+    background-color: $colores1;
+        nav{
+            float: inline-end;
+            width: 100%;
+                a{
+                    text-decoration: none;
+                    color: $colores2;
+                    font-size: 20px;
+                    text-transform: uppercase; 
+                }
+                ul li{
+                    display: inline-block;
+                    list-style: none;
+                    margin: 10px;
+                    margin-left: 70%; 
+                }
+        }
+}
+

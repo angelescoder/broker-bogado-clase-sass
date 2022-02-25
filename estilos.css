@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  background-image: linear-gradient(#78be90, white);
+  text-transform: uppercase;
+  font-size: 30px;
+  color: gray;
+  font-family: "Old Standard TT", serif;
+}
+
+.sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
+  height: 600px;
+  width: 100%;
+}
+
+.sec1 {
+  text-transform: uppercase;
+  color: gray;
+  text-align: center;
+}
+
+.sec2 {
+  width: 100%;
+  text-transform: lowercase;
+  color: gray;
+  text-align: center;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: #78be90;
+}
+header nav {
+  float: inline-end;
+  width: 100%;
+}
+header nav a {
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px;
+  margin-left: 70%;
+}
+
+.final {
+  height: 100%;
+  width: 100%;
+  background-color: #78be90;
+}
+
+.ley {
+  padding: 20px;
+  text-align: center;
+  text-transform: lowercase;
+  color: white;
+  font-size: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.redes1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.maps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.dir {
+  margin-top: 10%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.fiscal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*# sourceMappingURL=estilos.css.map */
